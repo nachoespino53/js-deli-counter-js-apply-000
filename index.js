@@ -1,7 +1,8 @@
 var currTicket = 0;
 var line = [];
 const takeANumber = currLine => {
-  currLine.push(currTicket + 1);
+  currTicket++;
+  currLine.push(currTicket);
   return `Welcome, You are number ${currTicket} in line.`;
 };
 
