@@ -9,7 +9,7 @@ const takeANumber = currLine => {
 const nowServing = currLine => {
   if (currLine.length) {
     const firstCust = currLine.shift();
-    return `Currently serving ${firstCust}.`;
+    return `Currently serving ticket number ${firstCust}.`;
   } else {
   return "There is nobody waiting to be served!";
   }
