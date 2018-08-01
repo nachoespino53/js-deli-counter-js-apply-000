@@ -3,7 +3,7 @@ var line = [];
 const takeANumber = currLine => {
   currTicket++;
   currLine.push(currTicket);
-  return `Welcome, You are number ${currTicket} in line.`;
+  return `Welcome, You are ticket number ${currTicket}.`;
 };
 
 const nowServing = currLine => {
