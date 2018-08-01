@@ -1,6 +1,8 @@
-const takeANumber = (currLine, name) => {
-  currLine.push(name);
-  return `Welcome, ${name}. You are number ${currLine.length} in line.`;
+var currTicket = 0;
+
+const takeANumber = currLine => {
+  currLine.push(currTicket + 1);
+  return `Welcome, You are number ${currTicket} in line.`;
 };
 
 const nowServing = currLine => {
